@@ -76,7 +76,7 @@ export const projects = [
     des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
     img: "/portfolio/p1.avif",
     iconLists: ["/portfolio/re.avif", "/portfolio/tail.avif", "/portfolio/ts.avif", "/portfolio/three.avif", "/portfolio/fm.avif"],
-    link: "https://github.com/adrianhajdin?tab=repositories",
+    link: "https://github.com/anuragjambhulkar?tab=repositories",
   },
   {
     id: 2,
@@ -84,7 +84,7 @@ export const projects = [
     des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
     img: "/portfolio/p2.avif",
     iconLists: ["/portfolio/next.avif", "/portfolio/tail.avif", "/portfolio/ts.avif", "/portfolio/stream.avif", "/portfolio/c.avif"],
-    link: "https://github.com/adrianhajdin/zoom-clone",
+    link: "https://github.com/anuragjambhulkar/RecipeBookFrontEnd",
   },
   {
     id: 3,
@@ -92,7 +92,7 @@ export const projects = [
     des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
     img: "/portfolio/p3.avif",
     iconLists: ["/portfolio/re.avif", "/portfolio/tail.avif", "/portfolio/ts.avif", "/portfolio/three.avif", "/portfolio/c.avif"],
-    link: "https://github.com/adrianhajdin/ai_saas_app",
+    link: "https://github.com/anuragjambhulkar/Python_StockMarketPrediction",
   },
   {
     id: 4,
@@ -100,7 +100,7 @@ export const projects = [
     des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
     img: "/portfolio/p4.avif",
     iconLists: ["/portfolio/next.avif", "/portfolio/tail.avif", "/portfolio/ts.avif", "/portfolio/three.avif", "/portfolio/gsap.avif"],
-    link: "https://github.com/adrianhajdin/iphone",
+    link: "https://github.com/anuragjambhulkar/QuizApp",
   },
 ];
 
@@ -173,14 +173,14 @@ export const companies = [
 export const workExperience = [
   {
     id: 1,
-    title: "Frontend Engineer Intern",
+    title: "Full-Stack Engineer Intern",
     desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
     className: "md:col-span-2",
     thumbnail: "/portfolio/exp1.avif",
   },
   {
     id: 2,
-    title: "Mobile App Dev - JSM Tech",
+    title: "Mobile App Dev Intern ",
     desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/portfolio/exp2.avif",
@@ -194,8 +194,8 @@ export const workExperience = [
   },
   {
     id: 4,
-    title: "Lead Frontend Developer",
-    desc: "Developed and maintained user-facing features using modern frontend technologies.",
+    title: "Lead Python Developer",
+    desc: "Developed and maintained user-facing features using modern technologies.",
     className: "md:col-span-2",
     thumbnail: "/portfolio/exp4.avif",
   },
