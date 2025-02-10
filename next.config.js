@@ -3,14 +3,12 @@ const nextConfig = {
   output: "export",
   images: {
     unoptimized: true, // Fixes image issues on GitHub Pages
-  }
-    ,typescript:{
-        ignoreBuildErrors:true ,
-    }
-   module.exports = {
+  },
+  typescript: {
+    ignoreBuildErrors: true,
+  },
   assetPrefix: './',  // This is correct
-};
-  basePath: "/portfolio"
+  basePath: "/portfolio",
 };
 
 export default nextConfig;
