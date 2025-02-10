@@ -7,8 +7,8 @@ const nextConfig = {
   typescript: {
     ignoreBuildErrors: true,
   },
-  assetPrefix: './',  // This is correct
+  assetPrefix: './',  // Ensures proper asset handling
   basePath: "/portfolio",
 };
 
-export default nextConfig;
+module.exports = nextConfig; // Use CommonJS export
