@@ -7,7 +7,9 @@ const nextConfig = {
     ,typescript:{
         ignoreBuildErrors:true ,
     }
-     assetPrefix: "./",
+   module.exports = {
+  assetPrefix: './',  // This is correct
+};
   basePath: "/portfolio"
 };
 
