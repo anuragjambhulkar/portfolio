@@ -1,7 +1,6 @@
 import React from 'react'
 import { InfiniteMovingCards } from './ui/InfiniteMovingCards'
 import { companies, testimonials } from '@/data'
-
 const Events = () => {
     return (
         <div className="py-20" id='testimonials'>

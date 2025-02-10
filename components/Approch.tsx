@@ -1,7 +1,6 @@
 "use client";
-import React, { useState } from "react";
+import React, {} from "react";
 import { AnimatePresence, motion } from "framer-motion";
-
 import { CanvasRevealEffect } from "./ui/CanvasRevealEffect";
 
 const Approach = () => {
@@ -10,9 +9,9 @@ const Approach = () => {
             <h1 className="heading">
                 My <span className="text-purple">approach</span>
             </h1>
-            {/* remove bg-white dark:bg-black */}
+            
             <div className="my-20 flex flex-col lg:flex-row items-center justify-center w-full gap-4">
-                {/* add des prop */}
+                
                 <Card
                     title="Planning & Strategy"
                     icon={<AceternityIcon order="Phase 1" />}

@@ -1,4 +1,4 @@
-import { gridItems, navItems } from "@/data/index";
+import { gridItems} from "@/data/index";
 import React from "react";
 import { BentoGrid, BentoGridItem } from "./ui/BentoGrid";
 

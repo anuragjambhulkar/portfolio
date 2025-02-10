@@ -1,6 +1,6 @@
 "use client";
 import { cn } from "@/lib/utils";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import dynamic from "next/dynamic";
 import { BackgroundGradientAnimation } from "./GradientBg";
 import Mbutton from "./Mbutton";

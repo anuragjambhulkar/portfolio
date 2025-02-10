@@ -2,8 +2,6 @@ import React from 'react'
 import Mbutton from './ui/Mbutton'
 import { FaLocationArrow } from 'react-icons/fa'
 import { socialMedia } from '@/data'
-
-
 const Footer = () => {
   return (
     <footer className="w-full  pb-10 mb-[100px]  md:mb-5"id='contact'>
