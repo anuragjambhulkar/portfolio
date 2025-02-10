@@ -7,7 +7,8 @@ const nextConfig = {
   typescript: {
     ignoreBuildErrors: true,
   },
-  assetPrefix: './',  // Ensures proper asset handling
+assetPrefix: '/portfolio/',
+// Ensures proper asset handling
   basePath: "/portfolio",
 };
 
