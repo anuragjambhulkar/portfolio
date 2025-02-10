@@ -34,7 +34,7 @@ jobs:
         run: npm run build
 
       - name: Export Next.js App (Static HTML)
-        run: npm run export
+        run: npm run build
 
       - name: Move Output Files
         run: mv out public  # Ensures correct deployment path
