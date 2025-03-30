@@ -43,7 +43,7 @@ const Hero = () => {
             Hi , I&apos;m Anuraag a devloper base in Maharashtra
           </p>
 
-          <a href="#about">
+          <a href="/portfolio/anuragjambhulkar.pdf" download="FStackDev_Anurag_JambhulkarResume.pdf">
             <Mbutton
               title="Resume"
               icon={<IoMdCodeDownload size={30} />}
