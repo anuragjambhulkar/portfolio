@@ -69,46 +69,72 @@ export const gridItems = [
   },
 ];
 
-export const projects = [
+ export const projects= [
   {
     id: 1,
-    title: "3D Solar System Planets to Explore",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-    img: "/portfolio/p1.avif",
-    iconLists: ["/portfolio/re.avif", "/portfolio/tail.avif", "/portfolio/ts.avif", "/portfolio/three.avif", "/portfolio/fm.avif"],
+    title: "Portfolio Website",
+    description: "A stunning personal portfolio showcasing my work, built with Next.js, React, and Three.js for an immersive 3D experience.",
+    image: "/portfolio/p1.avif",
+    iconLists: [
+      "/portfolio/re.avif", 
+      "/portfolio/tail.avif", 
+      "/portfolio/ts.avif", 
+      "/portfolio/three.avif", 
+      "/portfolio/fm.avif"
+    ],
     link: "https://github.com/anuragjambhulkar?tab=repositories",
   },
   {
     id: 2,
-    title: "Yoom - Video Conferencing App",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-    img: "/portfolio/p2.avif",
-    iconLists: ["/portfolio/next.avif", "/portfolio/tail.avif", "/portfolio/ts.avif", "/portfolio/stream.avif", "/portfolio/c.avif"],
+    title: "Recipe Book App",
+    description: "Transform how you manage and discover recipes with an intuitive, seamless app designed for food lovers.",
+    image: "/portfolio/p2.avif",
+    iconLists: [
+      "/portfolio/next.avif", 
+      "/portfolio/tail.avif", 
+      "/portfolio/ts.avif", 
+      "/portfolio/stream.avif", 
+      "/portfolio/c.avif"
+    ],
     link: "https://github.com/anuragjambhulkar/RecipeBookFrontEnd",
   },
   {
     id: 3,
-    title: "AI Image SaaS - Canva Application",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-    img: "/portfolio/p3.avif",
-    iconLists: ["/portfolio/re.avif", "/portfolio/tail.avif", "/portfolio/ts.avif", "/portfolio/three.avif", "/portfolio/c.avif"],
+    title: "AI-Powered Stock Prediction",
+    description: "A cutting-edge AI-based stock market prediction script leveraging advanced algorithms for accurate financial forecasting.",
+    image: "/portfolio/p3.avif",
+    iconLists: [
+      "/portfolio/re.avif", 
+      "/portfolio/tail.avif", 
+      "/portfolio/ts.avif", 
+      "/portfolio/three.avif", 
+      "/portfolio/c.avif"
+    ],
     link: "https://github.com/anuragjambhulkar/Python_StockMarketPrediction",
   },
   {
     id: 4,
-    title: "Animated Apple Iphone 3D Website",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-    img: "/portfolio/p4.avif",
-    iconLists: ["/portfolio/next.avif", "/portfolio/tail.avif", "/portfolio/ts.avif", "/portfolio/three.avif", "/portfolio/gsap.avif"],
+    title: "Interactive Quiz App",
+    description: "An engaging Android quiz app featuring dynamic GSAP animations and smooth transitions for an immersive user experience.",
+    image: "/portfolio/p4.avif",
+    iconLists: [
+      "/portfolio/next.avif", 
+      "/portfolio/tail.avif", 
+      "/portfolio/ts.avif", 
+      "/portfolio/three.avif", 
+      "/portfolio/gsap.avif"
+    ],
     link: "https://github.com/anuragjambhulkar/QuizApp",
   },
 ];
+
+
 
 export const testimonials = [
   {
     quote:
       "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
+    name: "ATX Gamer",
     title: "Director of AlphaStream Technologies",
   },
   {
@@ -174,20 +200,20 @@ export const workExperience = [
   {
     id: 1,
     title: "Full-Stack Engineer Intern",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+    desc: "Assisted in the development of a web-based platform using React.js, PHP, enhancing interactivity.",
     className: "md:col-span-2",
     thumbnail: "/portfolio/exp1.avif",
   },
   {
     id: 2,
     title: "Mobile App Dev Intern ",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
+    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native And Android Studio.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/portfolio/exp2.avif",
   },
   {
     id: 3,
-    title: "Freelance App Dev Project",
+    title: " App Dev Intern",
     desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/portfolio/exp3.avif",
@@ -205,13 +231,16 @@ export const socialMedia = [
   {
     id: 1,
     img: "/portfolio/git.avif",
+    link: "https://github.com/anuragjambhulkar/",
   },
   {
     id: 2,
     img: "/portfolio/twit.avif",
+    link: "https://x.com/anuragjambhulk2",
   },
   {
     id: 3,
     img: "/portfolio/link.avif",
+    link: "https://in.linkedin.com/in/anuragjambhulkar",
   },
 ]; 
