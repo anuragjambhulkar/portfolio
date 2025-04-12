@@ -88,7 +88,7 @@ export const gridItems = [
     id: 2,
     title: "Recipe Book App",
     description: "Transform how you manage and discover recipes with an intuitive, seamless app designed for food lovers.",
-    image: "/portfolio/recipe.png",
+    image: "/portfolio/recipe.avif",
     iconLists: [
       "/portfolio/next.avif", 
       "/portfolio/tail.avif", 
@@ -102,7 +102,7 @@ export const gridItems = [
     id: 3,
     title: "AI-Powered Stock Prediction",
     description: "A cutting-edge AI-based stock market prediction script leveraging advanced algorithms for accurate financial forecasting.",
-    image: "/portfolio/stockmarket.png",
+    image: "/portfolio/stockmarket.avif",
     iconLists: [
       "/portfolio/re.avif", 
       "/portfolio/tail.avif", 
@@ -116,7 +116,7 @@ export const gridItems = [
     id: 4,
     title: "Interactive Quiz App",
     description: "An engaging Android quiz app featuring dynamic GSAP animations and smooth transitions for an immersive user experience.",
-    image: "/portfolio/quizapp.png",
+    image: "/portfolio/quizapp.avif",
     iconLists: [
       "/portfolio/next.avif", 
       "/portfolio/tail.avif", 
