@@ -40,7 +40,7 @@ const Hero = () => {
           />
 
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl ">
-            Hi , I&apos;m Anuraag a devloper base in Maharashtra
+            Hi , I&apos;m Anurag a devloper base in Maharashtra
           </p>
 
           <a href="/portfolio/anuragjambhulkar.pdf" download="FStackDev_Anurag_JambhulkarResume.pdf">
