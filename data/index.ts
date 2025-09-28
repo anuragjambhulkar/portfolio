@@ -69,7 +69,7 @@ export const gridItems = [
   },
 ];
 
- export const projects= [
+export const projects = [
   {
     id: 1,
     title: "Portfolio Website",
@@ -82,7 +82,8 @@ export const gridItems = [
       "/portfolio/three.avif", 
       "/portfolio/fm.avif"
     ],
-    link: "https://github.com/anuragjambhulkar?tab=repositories",
+    link: "https://github.com/anuragjambhulkar/portfolio",
+    liveLink: "https://anuragjambhulkar.github.io/portfolio/", // NEW
   },
   {
     id: 2,
@@ -97,6 +98,7 @@ export const gridItems = [
       "/portfolio/c.avif"
     ],
     link: "https://github.com/anuragjambhulkar/RecipeBookFrontEnd",
+    liveLink: "https://recipebook.example.com", // NEW
   },
   {
     id: 3,
@@ -111,6 +113,7 @@ export const gridItems = [
       "/portfolio/c.avif"
     ],
     link: "https://github.com/anuragjambhulkar/Python_StockMarketPrediction",
+    liveLink: "https://stockpredictor.example.com", // NEW
   },
   {
     id: 4,
@@ -125,9 +128,9 @@ export const gridItems = [
       "/portfolio/gsap.avif"
     ],
     link: "https://github.com/anuragjambhulkar/QuizApp",
+    liveLink: "https://quizapp.example.com", // NEW
   },
 ];
-
 
 
 export const testimonials = [
