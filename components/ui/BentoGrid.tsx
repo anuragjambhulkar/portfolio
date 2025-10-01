@@ -1,16 +1,14 @@
 "use client";
+
 import { cn } from "@/lib/utils";
 import { useState } from "react";
-import dynamic from "next/dynamic";
 import { BackgroundGradientAnimation } from "./GradientBg";
 import Mbutton from "./Mbutton";
 import { IoCopyOutline } from "react-icons/io5";
+import dynamic from "next/dynamic";
+import Lottie from "lottie-react"; // ✅ Correct import
 
-// Dynamically import Lottie to prevent SSR issues
-const Lottie = dynamic(() => import("react-lottie"), { ssr: false });
-
-// Import animation JSON safely
-const animationData = require("@/data/confetti.json");
+import animationData from "@/data/confetti.json"; // ✅ Static import
 
 export const BentoGrid = ({
   className,
@@ -22,7 +20,7 @@ export const BentoGrid = ({
   return (
     <div
       className={cn(
-        "grid md:auto-rows-[110px] grid-cols-1 md:grid-cols-6 gap-5 max-w-7xl mx-auto ",
+        "grid md:auto-rows-[110px] grid-cols-1 md:grid-cols-6 gap-5 max-w-7xl mx-auto",
         className
       )}
     >
@@ -52,24 +50,26 @@ export const BentoGridItem = ({
 }) => {
   const [copied, setCopied] = useState(false);
 
-  // Ensure clipboard only runs on the client
   const handleCopy = () => {
     if (typeof window !== "undefined" && navigator.clipboard) {
       navigator.clipboard.writeText("jambhulkaranurag12@gmail.com");
       setCopied(true);
+      setTimeout(() => setCopied(false), 2000); // Reset animation after 2s
     }
   };
 
   return (
     <div
       className={cn(
-        "row-span-1 relative overflow-hidden rounded-3xl group/bento hover:shadow-xl transition duration-200 shadow-input border border-white/[0.1] justify-between flex flex-col space-y-4 ",
+        "row-span-1 relative overflow-hidden rounded-3xl group/bento hover:shadow-xl transition duration-200 shadow-input border border-white/[0.1] justify-between flex flex-col space-y-4",
         className
       )}
       style={{
-        background: "rgb(2,0,36)",
+        //   add these two
+        //   you can generate the color from here https://cssgradient.io/
+        background: "rgb(4,7,29)",
         backgroundColor:
-          "linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(93,108,111,1) 26%, rgba(0,212,255,1) 100%)",
+          "linear-gradient(90deg, rgba(4,7,29,1) 0%, rgba(12,14,35,1) 100%)",
       }}
     >
       <div className={`${id === 6 && "flex justify-center"} h-full`}>
@@ -82,8 +82,11 @@ export const BentoGridItem = ({
             />
           )}
         </div>
+
         <div
-          className={`absolute right-0 -bottom-5 ${id === 5 && "w-full opacity-80"}`}
+          className={`absolute right-0 -bottom-5 ${
+            id === 5 ? "w-full opacity-80" : ""
+          }`}
         >
           {spareImg && (
             <img
@@ -103,7 +106,7 @@ export const BentoGridItem = ({
         <div
           className={cn(
             titleClassName,
-            "group-hover/bento:translate-x-2 transition duration-200 relative md:h-full min-h-40 flex flex-col px-5 p-5 lg:p-10 "
+            "group-hover/bento:translate-x-2 transition duration-200 relative md:h-full min-h-40 flex flex-col px-5 p-5 lg:p-10"
           )}
         >
           <div className="font-monospaced font-extralight text-[#c1c2d3] text-sm md:text-xs lg:text-base z-10">
@@ -120,7 +123,7 @@ export const BentoGridItem = ({
                 {["Java", "App", "Web"].map((item) => (
                   <span
                     key={item}
-                    className="py-2 lg:py4 lg:px3 px-3 text-xs lg:text-base opacity-50 lg:opacity-100 rounded-lg text-center bg-[#10132E]"
+                    className="py-2 lg:py-4 lg:px-3 px-3 text-xs lg:text-base opacity-50 lg:opacity-100 rounded-lg text-center bg-[#10132E]"
                   >
                     {item}
                   </span>
@@ -130,7 +133,7 @@ export const BentoGridItem = ({
                 {["reactNative", "next.js", "Typescript"].map((item) => (
                   <span
                     key={item}
-                    className="py-2 lg:py4 lg:px3 px-3 text-xs lg:text-base opacity-50 lg:opacity-100 rounded-lg text-center bg-[#10132E]"
+                    className="py-2 lg:py-4 lg:px-3 px-3 text-xs lg:text-base opacity-50 lg:opacity-100 rounded-lg text-center bg-[#10132E]"
                   >
                     {item}
                   </span>
@@ -142,18 +145,20 @@ export const BentoGridItem = ({
 
           {id === 6 && (
             <div className="mt-5 relative">
-              <div className="absolute -bottom-4 right-0">
-                <Lottie
-                  options={{
-                    loop: copied,
-                    autoplay: copied,
-                    animationData,
-                    rendererSettings: {
-                      preserveAspectRatio: "xMidYMid slice",
-                    },
-                  }}
-                />
-              </div>
+              {copied && (
+                <div className="absolute inset-0 z-0 overflow-visible">
+                  <Lottie
+                    animationData={animationData}
+                    loop={false} 
+                    autoplay={true}
+                    style={{
+                      width: "250%",
+                      height: "250%",
+                      transform: "scale(2.5)",
+                    }}
+                  />
+                </div>
+              )}
               <Mbutton
                 title={copied ? "Email Copied" : "Copy My Email"}
                 icon={<IoCopyOutline />}
