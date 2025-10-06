@@ -87,8 +87,8 @@ export const projects = [
   },
   {
     id: 2,
-    title: "Recipe Book App",
-    description: "Transform how you manage and discover recipes with an intuitive, seamless app designed for food lovers.",
+    title: "DevSyncPro",
+    description: "Engineered a cloud-native real-time platform automating CI/CD workflows using Go/Python backend andReact/TypeScript frontend.Integrated Google Cloud services (Cloud Run, Pub/Sub, BigQuery, Vertex AI, IAM) for security and ML-drivenincident analysis. Utilized Web Sockets for live incident tracking, ensuring >99% successful deployments."
     image: "/portfolio/recipe.avif",
     iconLists: [
       "/portfolio/next.avif", 
@@ -97,8 +97,8 @@ export const projects = [
       "/portfolio/stream.avif", 
       "/portfolio/c.avif"
     ],
-    link: "https://github.com/anuragjambhulkar/RecipeBookFrontEnd",
-    liveLink: "https://recipebook.example.com", // NEW
+    link: "https://github.com/anuragjambhulkar/devsyncpro",
+    liveLink: "https://anuragjambhulkar.github.io/devsyncpro/",
   },
   {
     id: 3,
@@ -113,7 +113,7 @@ export const projects = [
       "/portfolio/c.avif"
     ],
     link: "https://github.com/anuragjambhulkar/Python_StockMarketPrediction",
-    liveLink: "https://stockpredictor.example.com", // NEW
+    liveLink: "https://github.com/anuragjambhulkar/Python_StockMarketPrediction", // NEW
   },
   {
     id: 4,
@@ -128,7 +128,7 @@ export const projects = [
       "/portfolio/gsap.avif"
     ],
     link: "https://github.com/anuragjambhulkar/QuizApp",
-    liveLink: "https://quizapp.example.com", // NEW
+    liveLink: "https://github.com/anuragjambhulkar/QuizApp", // NEW
   },
 ];
 
@@ -143,14 +143,14 @@ export const testimonials = [
   {
     quote:
       "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+    name: "Rohan Gadhave",
+    title: "Fresh News",
   },
   {
     quote:
       "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+    name: "Ramesh Bhos",
+    title: "Director of I love Shrigonda",
   },
   {
     quote:
@@ -223,7 +223,7 @@ export const workExperience = [
   },
   {
     id: 4,
-    title: "Lead Python Developer",
+    title: "AI/ML Engineer",
     desc: "Developed and maintained user-facing features using modern technologies.",
     className: "md:col-span-2",
     thumbnail: "/portfolio/exp4.avif",
