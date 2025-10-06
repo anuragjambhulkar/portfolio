@@ -88,7 +88,7 @@ export const projects = [
   {
     id: 2,
     title: "DevSyncPro",
-    description: "Engineered a cloud-native real-time platform automating CI/CD workflows using Go/Python backend andReact/TypeScript frontend.Integrated Google Cloud services (Cloud Run, Pub/Sub, BigQuery, Vertex AI, IAM) for security and ML-drivenincident analysis. Utilized Web Sockets for live incident tracking, ensuring >99% successful deployments."
+    description: "Engineered a cloud-native real-time platform automating CI/CD workflows using Go/Python backend andReact/TypeScript frontend.Integrated Google Cloud services (Cloud Run, Pub/Sub, BigQuery, Vertex AI, IAM) for security and ML-drivenincident analysis. Utilized Web Sockets for live incident tracking, ensuring >99% successful deployments.",
     image: "/portfolio/recipe.avif",
     iconLists: [
       "/portfolio/next.avif", 
